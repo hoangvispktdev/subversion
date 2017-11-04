@@ -13,7 +13,7 @@ RUN curl -fsSL https://download.docker.com/linux/$(. /etc/os-release; echo "$ID"
 
 RUN sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/$(. /etc/os-release; echo "$ID") $(lsb_release -cs) stable"
 
-#Install Docker CE 
+#Install Docker CE
 RUN sudo apt-get update
 RUN sudo apt-get install docker-ce
 
