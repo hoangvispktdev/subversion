@@ -4,7 +4,7 @@ RUN mkdir /home/Nginx
 
 RUN cd /home/Nginx
 
-RUN apt-get -y install wget
+RUN apt-get install -y wget
 
 #Install Docker
 
