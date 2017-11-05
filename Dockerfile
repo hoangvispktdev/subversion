@@ -1,8 +1,8 @@
 FROM debian:stretch
 
-RUN mkdir /home/Nginx
+RUN mkdir /user/Nginx
 
-RUN cd /home/Nginx
+RUN cd /user/Nginx
 
 RUN apt-get install -y wget
 
